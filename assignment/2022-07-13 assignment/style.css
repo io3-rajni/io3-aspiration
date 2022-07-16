@@ -2,12 +2,11 @@
   display: flex;
   border: solid black 1px;
   height: 40vh;
-  
 }
 .div1,
 .div2,
 .div3 {
-  border: 1px solid black;
+  border: 5px solid black;
   margin: 2px;
 }
 .main2 {
@@ -31,4 +30,12 @@
 .div9 {
   border: 1px solid black;
   margin: 2px;
+}
+.div1 {
+  background-image: url(..//assets/images/images\ jpg.jpg);
+  background-size: cover;
+}
+.div2 {
+  background-image: url(../assets/images/images\ jpg.jpg);
+  background-size: cover;
 }
