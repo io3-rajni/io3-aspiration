@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+     box-sizing: border-box;
+     font-family: "Roboto";
+
+}
+.container{
+    margin:auto;
+    width:70%;
+    color: rgb(51, 92, 126);}
+
+h1{
+    margin-left:-47px;
+}
+h2{
+    font-size:33px;
+}
+
