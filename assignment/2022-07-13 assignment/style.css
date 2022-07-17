@@ -1,41 +1,105 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.background{
+  background-image:url(./assets/images/gif-2.gif);
+  background-size: cover;
+
+}
 .main {
-  display: flex;
-  border: solid black 1px;
+  display: flex; 
+ border: solid black 1px; 
   height: 40vh;
 }
 .div1,
 .div2,
 .div3 {
-  border: 5px solid black;
-  margin: 2px;
+  border: 1px solid black;
+  margin: 20px;
+  border-bottom-right-radius: 56px;
+    border-top-left-radius: 56px;
+    box-shadow: 10px 14px 14px black;
+  
 }
 .main2 {
-  display: flex;
-  border: 1px solid black;
+  display: flex; 
   height: 40vh;
 }
 .div4,
 .div5,
 .div6 {
   border: 1px solid black;
-  margin: 2px;
+  margin: 20px;
+  border-top-right-radius: 56px;
+    border-bottom-left-radius: 56px;
+    box-shadow: 10px 17px 11px black;  
 }
 .main3 {
   display: flex;
-  border: 1px solid black;
   height: 40vh;
 }
 .div7,
 .div8,
 .div9 {
   border: 1px solid black;
-  margin: 2px;
-}
+  margin: 20px;
+  border-bottom-right-radius: 56px;
+    border-top-left-radius: 56px;
+    box-shadow: 10px 14px 14px black;
+  }
+
 .div1 {
-  background-image: url(..//assets/images/images\ jpg.jpg);
+  background-image: url(./assets/images/kullumanali.jpg);
   background-size: cover;
 }
 .div2 {
-  background-image: url(../assets/images/images\ jpg.jpg);
+  background-image: url(./assets/images/1949443-jammu-kashmir-ani.jpg);
   background-size: cover;
+}
+.div3{
+  background-image: url(./assets/images/darziling.jpg);
+  background-size: cover;
+}
+.div4{
+  background-image: url(./assets/images/Nainital.jpg);
+  background-size: cover;
+  width:79.5%;
+}
+.div5{
+  background-image: url(./assets/images/Diu);
+  background-size: cover;
+  width:86%;
+}
+.div6{
+  background-image: url(./assets/images/dehradun);
+  background-size: cover;
+width:88%;
+}
+.div7{
+  background-image: url(./assets/images/image-7.jpg);
+  background-size: cover;
+  width:91%;
+  
+}
+.div8{
+  background-image: url(./assets/images/image-8.jpg);
+  background-size: cover;
+
+}
+.div9{
+  background-image: url(./assets/images/image-9.jpg);
+  background-size: cover;
+  width:100%;
+}
+h1{
+  padding: 20px;
+}
+p{
+  font-size: 18px;
+  font:bold;
+}
+.para1,.para2,.para3{
+  color:azure;
 }
