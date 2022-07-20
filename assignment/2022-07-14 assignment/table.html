@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta viewport="name" content=" width-device-width, initial-scale=0.1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>table</title>
+  </head>
+  <style>
+    table{ 
+        /* border-collapse:collapse; */
+        width:80%;
+    align-items: center;
+    }
+   thead table,tr,td,th{
+        border:2px solid black;
+        justify-content: center;
+    }
+    /* tr:nth-child(odd) {
+  background-color: #D6EEEE;
+} */
+th:nth-child(odd){
+    background-color: #98a7a7;
+}
+th:nth-child(even){
+  background-color:rgba(236, 224, 224, 0.947);  
+}  
+.table1 {
+    background-color: #98a7a7;
+}
+  </style>
+  <body>
+    <table> 
+        <thead>
+    <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+    </tr>
+</thead>
+    <tr class="table1">
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+</tr>
+</table>
+  </body>
+</html>
