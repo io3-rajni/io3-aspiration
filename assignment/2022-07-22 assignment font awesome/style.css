@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#firstline{
+    display:flex;
+}
+.first,.second,.third{
+    /* display:flex; */
+
+}
+.first{
+    color:red;
+}
+
+.second{
+color:yellow;
+justify-content: space-around;
+}
+
+.third{
+    color:green;
+}
+.firstline{
+
+}
