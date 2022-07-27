@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: fi;
+}
+    
+.left-div{
+    height:950px;
+    width:25%;
+    background-color:white;
+    position: relative;
+    z-index:1;
+    margin-top: 0px;
+}
+.right-div{
+    height: 950px;
+    width:25%;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    position: relative;
+    margin-top:0px;
+    
+}
+.main-div{
+    height: 950px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    position: relative;
+background: linear-gradient(to bottom,rgb(227, 227, 234),rgb(41, 40, 40));
+margin-top:0px; 
+}
+
+ .first-box{
+    height:400px;
+ width: 410px;
+ /* border: 1px solid black; */
+ /* margin-left: 53.5%; */
+ transform: rotate(44deg);
+ top: 15%;
+ position: relative;
+ left: 75%;
+ border-radius: 20px;
+ background-color: beige;
+ background-image:linear-gradient( to right,rgba(69, 69, 62, 0.571),black); 
+}
+
+
+.second-box{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    transform: rotate(45deg);
+    top: 10%;
+    border-radius: 20px;
+    position: absolute;
+    left: 47%;
+    background-color:bisque;
+    z-index: 1;
+}
+
+.third-box{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid black; */
+    transform: rotate(45deg);
+    top: 500px;
+    border-radius: 20px;
+    position: absolute;
+    left: 45%;
+    margin-right: 153px;
+    top: 433px;
+    background-color: blanchedalmond;
+    z-index: 1;
+}
+
+
+.fourth-box{
+    height: 215px;
+    width: 215px;
+    /* border: 1px solid black; */
+    transform: rotate(45deg);
+    top: 499px;
+    border-radius: 20px;
+    position: absolute;
+    left: 24%;
+    margin-right: 153px;
+    top: 256px;
+    background-color:blueviolet;
+    z-index:1;
+ } 
+ 
+.fifth-box{ 
+    height:31%;
+    width: 80px;
+    border: 1px solid black;
+    background-color: #fff;
+    position: relative;
+    top: 58%;
+    left: 36%;
+    transform: rotate(134deg);
+}
+.sixth-box{ 
+    height: 51%;
+    width: 80px;
+    border: 1px solid black;
+    background-color: #fff;
+    position: relative;
+    top: 35%;
+    /* left: -15%; */
+    right: 46%;
+    /* left: -11%; */
+    transform: rotateZ(45deg);
+}
+
+ .seventh-box{
+    height: 18%;
+    width: 80px;
+    border: 1px solid black;
+    background-color: #fff;
+    transform: rotateZ(45deg);
+    position: relative;
+    top: 31%;
+    right: 49%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+   
+}
+.eighth-box{
+    height: 16%;
+    width: 80px;
+    border: 1px solid black;
+    background-color: #fff;
+    position: relative;
+    top: 60%;
+    right: 36%;
+    transform: rotate(45deg);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.ninth-box{
+    height: 18%;
+    width: 80px;
+    width: 80p;
+    border: 1px solid black;
+    background-color: #fff;
+    position: relative;
+    top: 65%;
+    right: 206px;
+    /* left: -16%; */
+    transform: rotateZ(137deg);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+ .tenth-box{
+    height: 18%;
+    width: 80px;
+    width: 80p;
+    border: 1px solid black;
+    background-color: #fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+    transform: rotateZ(135deg);
+    /* background: linear-gradient(to bottom red yellow); */
+}
+.first-box{
+    box-shadow: 15px 15px 18px;
+}
+.main-div img{
+    height:20px;
+    width:20px;
+}
+.second-box img{
+     height: 200px;
+    width: 200px; 
+    border-radius: 20px;
+    box-shadow: 15px 15px 18px;
+} 
+ .third-box img{
+    height: 250px;
+    width: 250px; border-radius: 20px;
+    box-shadow: 15px 15px 18px;
+ }
+ .fourth-box img{
+height: 215px;
+width: 215px;
+border-radius: 20px;
+box-shadow: 15px 15px 18px;
+ }
+ .fourth-box{
+    background-image:linear-gradient( to right,rgba(25, 27, 3, 0.571),black);
+ }
+ .fifth-box{
+background-image:linear-gradient( to bottom,rgba(25, 27, 3, 0.571),black);
+ }
+ .sixth-box{
+    background-image:linear-gradient( to right,rgba(25, 27, 3, 0.571),black);
+ }
+.seventh-box{
+    background-image:linear-gradient( to left,rgba(25, 27, 3, 0.571),black);
+}
+.eighth-box{
+    background-image:linear-gradient( to top,rgba(25, 27, 3, 0.571),black);
+}
+.ninth-box{
+    background-image:linear-gradient( to right,rgba(25, 27, 3, 0.571),black);
+}
+.tenth-box{
+    background-image:linear-gradient( to left,rgba(25, 27, 3, 0.571),black); 
+}

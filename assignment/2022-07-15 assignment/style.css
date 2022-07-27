@@ -8,7 +8,6 @@ background-color: #E6ECF0;
 }
 /* NAVBAR */
 #maindiv {
-  /* border: 1px solid black; */
   text-decoration: none;
 }
 .firstcard{
@@ -35,10 +34,8 @@ li {
 }
 .fa-twitter {
   margin: auto;
-  /* height:30px; */
   color:#49B3F4;
-  /* padding: 10px; */
-  font-size: 130px;
+  font-size: 30px;
 }
 .fa{
   font-size: 50px;
@@ -47,7 +44,6 @@ li {
 .btn,input{
   margin-right: 75px;
   width: 98px;
-  /* padding: 0px; */
   border-radius: 24px;
   background-color:#49B3F4;
   color: white;
@@ -62,7 +58,6 @@ li {
   justify-content: center;
 }
 .firstcard {
-  /* border: 1px solid black; */
     width: 22%;
     margin: 2px;
     height: min-content;
@@ -109,7 +104,6 @@ margin:2px;
 .card-second {
   width: 33%;
   background-color: #ffffff;
-    /* border: 1px solid black; */
 }
 .card-second img{
   height: 60px;
@@ -160,20 +154,15 @@ h6{
     margin-top:20px;
   float: left;
 }
-.para2{
-  /* display: flex; */
 
-}
 .name4 {
   display: flex;
   margin-left: 12%;
   padding: 2px;
   margin-top:20px;
-  /* float: left; */
 }
 
 .para3{
-  /* margin-top: 45%; */
   margin-left: 23px
 }
 
@@ -242,8 +231,6 @@ img{
   .seventh-row{
     display: flex; 
     margin: 12px;
-    /* width: 50px; */
-    /* height: 68px; */
     border-radius: 50%;}
     .seventh-row img{
       height:50px;
@@ -252,7 +239,6 @@ img{
 
     .name8{
       display:flex;
-      
       margin-left: 15px;
     }
     button{
@@ -260,9 +246,9 @@ img{
       background-color: white;
       border-radius: 23px;
       width: 5px;
-      width: 171px;
+      width:104px;
       border-block-color: initial;
       border-color: #49B3F4;
-      margin-left: 15px;
+      margin-left: 32px;
   }
     
