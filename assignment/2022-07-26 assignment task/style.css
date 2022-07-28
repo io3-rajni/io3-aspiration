@@ -6,7 +6,7 @@
 .container{
     display: flex;
     flex-wrap: wrap;
-    height: 1000px;
+    height:10vh;
     width: 100%;
     flex-wrap: wrap;
     justify-content: fi;
@@ -23,7 +23,6 @@
 .right-div{
     height: 950px;
     width:25%;
-    /* border: 1px solid black; */
     background-color: white;
     display: flex;
     position: relative;
@@ -43,12 +42,10 @@ margin-top:0px;
  .first-box{
     height:400px;
  width: 410px;
- /* border: 1px solid black; */
- /* margin-left: 53.5%; */
  transform: rotate(44deg);
- top: 15%;
+ top: 16%;
  position: relative;
- left: 75%;
+ left: 74%;
  border-radius: 20px;
  background-color: beige;
  background-image:linear-gradient( to right,rgba(69, 69, 62, 0.571),black); 
@@ -58,7 +55,6 @@ margin-top:0px;
 .second-box{
     height: 200px;
     width: 200px;
-    /* border: 1px solid black; */
     transform: rotate(45deg);
     top: 10%;
     border-radius: 20px;
@@ -71,7 +67,6 @@ margin-top:0px;
 .third-box{
     height: 250px;
     width: 250px;
-    /* border: 1px solid black; */
     transform: rotate(45deg);
     top: 500px;
     border-radius: 20px;
@@ -87,7 +82,6 @@ margin-top:0px;
 .fourth-box{
     height: 215px;
     width: 215px;
-    /* border: 1px solid black; */
     transform: rotate(45deg);
     top: 499px;
     border-radius: 20px;
@@ -116,9 +110,7 @@ margin-top:0px;
     background-color: #fff;
     position: relative;
     top: 35%;
-    /* left: -15%; */
     right: 46%;
-    /* left: -11%; */
     transform: rotateZ(45deg);
 }
 
@@ -156,7 +148,6 @@ margin-top:0px;
     position: relative;
     top: 65%;
     right: 206px;
-    /* left: -16%; */
     transform: rotateZ(137deg);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -173,15 +164,11 @@ margin-top:0px;
     top: 18%;
     left: 27%;
     transform: rotateZ(135deg);
-    /* background: linear-gradient(to bottom red yellow); */
 }
 .first-box{
     box-shadow: 15px 15px 18px;
 }
-.main-div img{
-    height:20px;
-    width:20px;
-}
+
 .second-box img{
      height: 200px;
     width: 200px; 
@@ -220,3 +207,80 @@ background-image:linear-gradient( to bottom,rgba(25, 27, 3, 0.571),black);
 .tenth-box{
     background-image:linear-gradient( to left,rgba(25, 27, 3, 0.571),black); 
 }
+.heading{
+    position: absolute;
+    top:80%;
+    right:56%;
+}
+.heading-2{
+    position: absolute;
+    top:84%;
+    right:68%;
+    color: bisque; 
+}
+.heading-3{
+    position: absolute;
+    top:87%;
+    right:72%;  
+}
+.heading-4{
+    position: absolute;
+    top:93%;
+    right:76%;
+}
+.logo img{
+    height: 80px;
+    width: 93px;
+    border-radius: 50px;
+    box-shadow: 10px 6px 18px;
+    position: absolute;
+    top: 87%;
+    right: 7%;
+     }
+     .logo-2 img{
+        height: 84px;
+    width: 286px;
+    border-radius: 31px;
+    box-shadow: 0px 10px 15px 0px;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+     }
+     .logo-3 img{
+    height: 84px;
+    width: 90px;
+    border-radius: 31px;
+    box-shadow: 0px 10px 15px 0px;
+    position: absolute;
+    top: 2%;
+    left: 6%;
+     }
+     .year{
+        height: 35px;
+        width: 91px;
+        border-left-width: 12%;
+        border: 2px solid black;
+        position: absolute;
+        top: 36%;
+        right: 12%;
+        border-top-left-radius: 15px;
+        color: #000;
+        border-block-end-style: 86px;
+        border-bottom-right-radius: 15px;
+    }
+    .fa-facebook-square:before {
+        content: "\f082";
+        font-size: 30px;
+        color:#1C96E8;
+        position: absolute;
+        top: 93%;
+        left: 28%;
+    }
+    .fa-twitter-square:before {
+        content: "\f082";
+        font-size: 30px;
+        color: #1C96E8;
+        position: absolute;
+        top: 93%;
+        left: 33%;
+    }
